@@ -16,8 +16,8 @@ public class BoardServiceImpl implements BoardService {
 	@Override
 	public void boardTest() {
 		
-		log.info(boardMapper.boardTest());
-		log.info(boardMapper.insertTest());
+		boardMapper.boardTest();
+		boardMapper.insertTest();
 	}
 
 }
